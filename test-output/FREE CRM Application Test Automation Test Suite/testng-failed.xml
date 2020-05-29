@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FREE CRM Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.imdb.listeners.TestListener"/>
+  </listeners>
+  <test name="imdb Test Cases(failed)">
+    <classes>
+      <class name="com.imdb.web.IMDBTop250Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifySortingByReleaseDate"/>
+        </methods>
+      </class> <!-- com.imdb.web.IMDBTop250Test -->
+    </classes>
+  </test> <!-- imdb Test Cases(failed) -->
+</suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->
