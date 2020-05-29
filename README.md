@@ -1,2 +1,3 @@
 # imdbtop250
-Automation the imdb site
+Web Automation of the imdb site
+Extensive use of Factory pattern for different sorting
